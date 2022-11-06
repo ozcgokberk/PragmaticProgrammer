@@ -101,4 +101,46 @@ Summary of Chapter 1:
 ✅Be a listener.
 ✅Get back to people.
 
-Chapter 2 : PRAGMATIC APPROACH
+Chapter 2 : PRAGMATIC APPROACH 
+DRY (Don't Repeat Yourself)
+The alternative is to have the same thing expressed in two or more places. If you change 
+one, you have to remember to change the others, or, like the alien computers, your 
+program will be brought to its knees by a contradiction. It isn't a question of whether 
+you'll remember: it's a question of when you'll forget.
+
+How Does Duplication Arise ? 
+-Imposed duplication
+-Inadvertent duplication
+-Impatient duplication.
+-Interdeveloper duplication.
+
+----Imposed duplication:
+Sometimes, duplication seems to be forced on us. Project standards may require
+documents that contain duplicated information, or documents that duplicate information in 
+the code.
+Some techniques that our life eaiser; 
+-Multiple representations of information:
+With a bit of ingenuity you can normally remove the need for duplication. Often the 
+answer is to write a simple filter or code generator.
+-Documentation in code
+--Good code always has lots of comments is not true in all case. On the other hand,
+ bad code requires lots of comments.
+ The DRY principle tells us to keep the low-level knowledge in the code, where it 
+ belongs, and reserve the comments for other, high-level explanations.
+ -Language issues.
+ Use the header files to document interface issues, and the implementation files to 
+ document the nitty-gritty details that users of your code don't need to know.
+ 
+ ----Inadvertent Duplication
+
+Sometimes, duplication comes about as the result of mistakes in the design.
+----Impatient Duplication
+If you feel this temptation, remember the hackneyed aphorism "shortcuts make for 
+long delays." You may well save some seconds now, but at the potential loss of hours 
+later.Impatient duplication is an easy form to detect and handle, but it takes 
+discipline and a willingness to spend time up front to save pain later.
+----Interdeveloper Duplication
+We feel that the best way to deal with this is to encourage active and frequent 
+communication between developers.
+We need to set up forums to discuss common problems.
+
