@@ -1,5 +1,5 @@
 # PragmaticProgrammer
-Chapter 1 -------------------------------
+# Chapter 1 -------------------------------
 Another key to their success is that they take responsibility for everything they
 do. Being responsible, Pragmatic Programmers won't sit idly by and watch their
 projects fall apart through neglect.
@@ -101,7 +101,7 @@ Summary of Chapter 1:
 ✅Be a listener.
 ✅Get back to people.
 
-Chapter 2 : PRAGMATIC APPROACH 
+# Chapter 2 : PRAGMATIC APPROACH 
 DRY (Don't Repeat Yourself)
 The alternative is to have the same thing expressed in two or more places. If you change 
 one, you have to remember to change the others, or, like the alien computers, your 
@@ -155,7 +155,7 @@ You get two major benefits if you write orthogonal systems: increased productivi
 ----Reversebilty:
 suppose the project begins as a client-server model, but then, late in the game, marketing decides that servers are too expensive for some clients, and they want a stand-alone version. How hard would that be for you? Since it's just a deployment issue, it shouldn't take more than a few days. If it would take longer, then you haven't thought about reversibility. The other direction is even more interesting. What if the stand-alone product you are making needs to be deployed in a client-server or n-tier fashion? That shouldn't be hard either
 
-Chapter 3: 
+# Chapter 3: 
 
 ----Drawbacks
 There are two major drawbacks to using plain text: (1) It may take more space to store than a compressed binary format, and (2) it may be computationally more expensive to interpret and process a plain text file.
@@ -216,7 +216,7 @@ representation of some piece of knowledge and convert it into all the forms your
 needs.
 Code Generators Needn't Be Complex
 Keep the input format simple, and the code generator becomes simple.
-----Chapter 4:
+# ----Chapter 4:
  
 You can't write Perfect Software
 No one in the brief history of computing has ever written a piece of perfect software.
@@ -268,7 +268,7 @@ Finish What You Start
 Nest Allocations
 -Deallocate resources in the opposite order to that in which you allocate them
 -When allocating the same set of resources in different places in your code, always allocate them in the same order (prevent deadlocks)
-Chapter 5:
+# Chapter 5:
 ----Don't Write Dodo-Code
 Without metadata, your code is not as adaptable or flexible as it could be. Is this a bad
 thing? Well, out here in the real world, species that don't adapt die.
@@ -279,7 +279,7 @@ man.
 -Always Design for Concurrency
 -Separate Views from Models
 -Use Blackboards to Coordinate Workflow
-Chapter 6: 
+# Chapter 6: 
 -Don't Program by Coincidence
 How to Program Deliberately: 
 -Always be aware of what you are doing.
@@ -333,7 +333,7 @@ Regardless of the technology you decide to use, test harnesses should include th
 -A means of analyzing output for expected (or unexpected) results
 -A standardized form of failure reporting
 
-Chapter 7:
+#Chapter 7:
 Digging for Requirements
 Policy may end up as metadata in the application.
 Gathering requirements in this way naturally leads you to a system that is well factored to
@@ -361,7 +361,7 @@ Solving Impossible Puzzles
 Degrees of Freedom
 The key to solving puzzles is both to recognize the constraints placed on you and to recognize
 the degrees of freedom you do have, for in those you'll find your solution.
-Chapter 8: Pragmatic Projects:
+# Chapter 8: Pragmatic Projects:
 Pragmatic Teams:
 -No Broken Windows:
 Teams as a whole should not tolerate broken windows—those small imperfections that no one fixes. The team must take responsibility for the quality of the product, supporting developers who understand the no broken windows philosophy we describe in Software Entropy, and encouraging those who haven't yet discovered it.
@@ -433,7 +433,7 @@ Communicating Expectations
 Users initially come to you with some vision of what they want. You cannot just ignore it.
 Everyone should understand what's expected and how it will be built.
 
-
-
-
+# Appendix:
+There are two wordl- class professional societies for programmers : ACM and IEEE.
+Being a member of these societies has many advantages such as opportuniy to participate in setting standards and guidelines used around the world.
 
